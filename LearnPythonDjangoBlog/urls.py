@@ -17,10 +17,11 @@ from django.conf.urls import url   ,include
 from django.contrib import admin
 from  blog import views as Views
 from django.conf import settings
+from  django.views.static import serve
 
 urlpatterns = [
     url(r"^uploads/(?P<path>.*)$",
-        "django.views.static.serve",{'document_root':settings.MEDIA_ROOT}
+        serve,{'document_root':settings.MEDIA_ROOT}
        ),
     url(r'^admin/', admin.site.urls),
     url(r'^$', Views.index, name='index'),
