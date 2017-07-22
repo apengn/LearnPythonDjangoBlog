@@ -203,6 +203,14 @@ LOGGING = {
     }
 }
 
+#自定义用户model
+
+# AUTH_USER_MODEL='blog.User'
+
+#  创建 超级管理员：   manage.py  createsuperuser
+#
+#  超级管理员：    wp    123456admin     wp@qq.com
+
 # 网站基本信息配置
 
 SITE_NAME = '个人博客'

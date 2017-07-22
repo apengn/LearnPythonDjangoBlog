@@ -61,3 +61,475 @@ Traceback (most recent call last):
   File "C:\Python34\lib\site-packages\django\template\context.py", line 236, in bind_template
     updates.update(processor(self.request))
 TypeError: globel_setting() takes 0 positional arguments but 1 was given
+2017-07-22 15:58:21,065 [Thread-9:3108] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python34\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'user_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python34\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1449, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1007, in save_model
+    obj.save()
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python34\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\db\models\query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python34\lib\site-packages\django\db\models\sql\compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python34\lib\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python34\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'user_id' cannot be null")
+2017-07-22 16:01:50,095 [Thread-33:13460] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python34\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'user_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python34\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1449, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1007, in save_model
+    obj.save()
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python34\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\db\models\query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python34\lib\site-packages\django\db\models\sql\compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python34\lib\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python34\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'user_id' cannot be null")
+2017-07-22 16:02:33,458 [Thread-35:4828] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python34\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1048, "Column 'user_id' cannot be null")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "C:\Python34\lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1449, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Python34\lib\site-packages\django\contrib\admin\options.py", line 1007, in save_model
+    obj.save()
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "C:\Python34\lib\site-packages\django\db\models\base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "C:\Python34\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python34\lib\site-packages\django\db\models\query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "C:\Python34\lib\site-packages\django\db\models\sql\compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "C:\Python34\lib\site-packages\django\utils\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python34\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python34\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "C:\Python34\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "C:\Python34\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Python34\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1048, "Column 'user_id' cannot be null")
+2017-07-22 16:10:51,609 [Thread-81:8520] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/comment/1/change/
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\Python34\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "C:\Python34\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Python34\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 1044, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 739, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "C:\Python34\lib\site-packages\django\template\defaultfilters.py", line 47, in _dec
+    args[0] = force_text(args[0])
+  File "C:\Python34\lib\site-packages\django\utils\encoding.py", line 76, in force_text
+    s = six.text_type(s)
+TypeError: __str__ returned non-string (type int)
+2017-07-22 16:11:41,184 [Thread-83:9772] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/comment/add/
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "C:\Python34\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "C:\Python34\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Python34\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\loader_tags.py", line 210, in render
+    return template.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 1050, in render
+    return render_value_in_context(output, context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 1028, in render_value_in_context
+    value = force_text(value)
+  File "C:\Python34\lib\site-packages\django\utils\encoding.py", line 76, in force_text
+    s = six.text_type(s)
+  File "C:\Python34\lib\site-packages\django\utils\html.py", line 391, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\Python34\lib\site-packages\django\forms\boundfield.py", line 43, in __str__
+    return self.as_widget()
+  File "C:\Python34\lib\site-packages\django\forms\boundfield.py", line 101, in as_widget
+    return force_text(widget.render(name, self.value(), attrs=attrs))
+  File "C:\Python34\lib\site-packages\django\contrib\admin\widgets.py", line 307, in render
+    'widget': self.widget.render(name, value, *args, **kwargs),
+  File "C:\Python34\lib\site-packages\django\forms\widgets.py", line 550, in render
+    options = self.render_options([value])
+  File "C:\Python34\lib\site-packages\django\forms\widgets.py", line 573, in render_options
+    for option_value, option_label in self.choices:
+  File "C:\Python34\lib\site-packages\django\forms\models.py", line 1119, in __iter__
+    yield self.choice(obj)
+  File "C:\Python34\lib\site-packages\django\forms\models.py", line 1125, in choice
+    return (self.field.prepare_value(obj), self.field.label_from_instance(obj))
+  File "C:\Python34\lib\site-packages\django\forms\models.py", line 1188, in label_from_instance
+    return smart_text(obj)
+  File "C:\Python34\lib\site-packages\django\utils\encoding.py", line 41, in smart_text
+    return force_text(s, encoding, strings_only, errors)
+  File "C:\Python34\lib\site-packages\django\utils\encoding.py", line 76, in force_text
+    s = six.text_type(s)
+TypeError: __str__ returned non-string (type int)

@@ -133,7 +133,7 @@ class Comment(models.Model):
         ordering = ['-date_publish']
 
     def  __str__(self):
-        return  self.id
+        return  str(self.content)
 class Links(models.Model):
 
     title = models.CharField(max_length=50,verbose_name='标题')
