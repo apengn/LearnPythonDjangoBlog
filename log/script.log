@@ -1,0 +1,63 @@
+2017-07-22 09:43:45,988 [Thread-2:6616] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python\LearnPythonDjangoBlog\blog\views.py", line 19, in index
+    return render(req, "index.html", locals())
+  File "C:\Python34\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python34\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python34\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "C:\Python34\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 232, in bind_template
+    processors = (template.engine.template_context_processors +
+  File "C:\Python34\lib\site-packages\django\utils\functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Python34\lib\site-packages\django\template\engine.py", line 91, in template_context_processors
+    return tuple(import_string(path) for path in context_processors)
+  File "C:\Python34\lib\site-packages\django\template\engine.py", line 91, in <genexpr>
+    return tuple(import_string(path) for path in context_processors)
+  File "C:\Python34\lib\site-packages\django\utils\module_loading.py", line 20, in import_string
+    module = import_module(module_path)
+  File "C:\Python34\lib\importlib\__init__.py", line 104, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 2231, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 2214, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 2189, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 321, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 2231, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 2214, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 2201, in _find_and_load_unlocked
+ImportError: No module named 'bolg'
+2017-07-22 09:44:14,369 [Thread-2:14028] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python\LearnPythonDjangoBlog\blog\views.py", line 19, in index
+    return render(req, "index.html", locals())
+  File "C:\Python34\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Python34\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "C:\Python34\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "C:\Python34\lib\contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+TypeError: globel_setting() takes 0 positional arguments but 1 was given

@@ -1,0 +1,618 @@
+2017-07-22 09:25:40,561 [Dummy-1:9068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:25:40,565 [Dummy-1:9068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:26:49,168 [Dummy-1:3068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:26:49,172 [Dummy-1:3068] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:26:54,668 [Thread-2:5696] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18324
+2017-07-22 09:29:20,185 [Thread-7:5440] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18324
+2017-07-22 09:29:21,270 [Thread-8:6708] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18324
+2017-07-22 09:29:21,769 [Thread-9:9132] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18324
+2017-07-22 09:29:21,945 [Thread-10:13552] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18324
+2017-07-22 09:29:56,590 [Dummy-1:4608] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:29:56,593 [Dummy-1:4608] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:30:00,432 [Thread-2:12760] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18324
+2017-07-22 09:32:54,861 [Dummy-1:11148] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:32:54,864 [Dummy-1:11148] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:34:58,757 [Dummy-1:11268] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:34:58,761 [Dummy-1:11268] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:35:30,548 [Dummy-1:6848] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:35:30,552 [Dummy-1:6848] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:36:08,335 [Dummy-1:8344] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:36:08,339 [Dummy-1:8344] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:41:43,668 [Dummy-1:9368] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:41:43,673 [Dummy-1:9368] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:43:16,866 [Dummy-1:7532] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:43:16,869 [Dummy-1:7532] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:43:42,478 [Dummy-1:11224] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:43:42,482 [Dummy-1:11224] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:43:46,125 [Thread-2:6616] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'j3kp2mp33izqktcccdlcz75ixu82zzva' AND "django_session"."expire_date" > '2017-07-22 01:43:46.123218'); args=('j3kp2mp33izqktcccdlcz75ixu82zzva', '2017-07-22 01:43:46.123218')
+2017-07-22 09:43:46,253 [Thread-2:6616] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 109398
+2017-07-22 09:44:13,878 [Dummy-1:8992] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:44:13,882 [Dummy-1:8992] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:44:14,422 [Thread-2:14028] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2017-07-22 01:44:14.419896' AND "django_session"."session_key" = 'j3kp2mp33izqktcccdlcz75ixu82zzva'); args=('2017-07-22 01:44:14.419896', 'j3kp2mp33izqktcccdlcz75ixu82zzva')
+2017-07-22 09:44:14,538 [Thread-2:14028] [django.server:131] [basehttp:log_message] [ERROR]- "GET / HTTP/1.1" 500 92199
+2017-07-22 09:46:35,204 [Dummy-1:236] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:46:35,208 [Dummy-1:236] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:46:36,759 [Thread-2:10968] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'False': False, 'None': None}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004C809E8>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004CDBB70>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004C93488>>, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004C99730>>, 'sitename': '某某某的个人博客', 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25, 'DEBUG': 10}}, {}, {'req': <WSGIRequest: GET '/'>}]"
+2017-07-22 09:46:36,786 [Thread-2:10968] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'False': False, 'None': None}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004C809E8>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004CDBB70>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004C93488>>, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004C99730>>, 'sitename': '某某某的个人博客', 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25, 'DEBUG': 10}}, {}, {'req': <WSGIRequest: GET '/'>}]"
+2017-07-22 09:46:36,791 [Thread-2:10968] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18155
+2017-07-22 09:47:50,088 [Thread-3:7996] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'False': False, 'None': None}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004CDB438>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004EDBB00>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004EF6488>>, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004C99730>>, 'sitename': '某某某的个人博客', 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25, 'DEBUG': 10}}, {}, {'req': <WSGIRequest: GET '/'>}]"
+2017-07-22 09:47:50,090 [Thread-3:7996] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'False': False, 'None': None}, {'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004CDB438>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004EDBB00>, 'request': <WSGIRequest: GET '/'>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004EF6488>>, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004C99730>>, 'sitename': '某某某的个人博客', 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25, 'DEBUG': 10}}, {}, {'req': <WSGIRequest: GET '/'>}]"
+2017-07-22 09:47:50,095 [Thread-3:7996] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:48:46,781 [Dummy-1:8848] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:48:46,785 [Dummy-1:8848] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:48:47,004 [Thread-2:2580] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005562D90>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000005562AE8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000577FA58>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000005567E10>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:47,011 [Thread-2:2580] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005562D90>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000005562AE8>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000577FA58>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000005567E10>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:47,017 [Thread-2:2580] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:48:47,747 [Thread-3:12844] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057C4488>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057C7400>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000578EF28>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000577F278>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:47,751 [Thread-3:12844] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057C4488>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057C7400>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000578EF28>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000577F278>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:47,758 [Thread-3:12844] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:48:47,913 [Thread-4:14196] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057CA488>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057C4488>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000005773630>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000055608D0>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:47,915 [Thread-4:14196] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057CA488>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057C4488>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000005773630>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000055608D0>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:47,919 [Thread-4:14196] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:48:48,082 [Thread-5:11724] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057CA6A8>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057CA620>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000577F438>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000005567278>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:48,083 [Thread-5:11724] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057CA6A8>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057CA620>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000577F438>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000005567278>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:48,087 [Thread-5:11724] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:48:48,235 [Thread-6:6196] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057CA7B8>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057CA730>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000577F8D0>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000578EDD8>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:48,237 [Thread-6:6196] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'True': True, 'None': None, 'False': False}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000057CA7B8>>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x00000000057CA730>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x000000000577F8D0>, 'sitename': '某某某的个人博客', 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x000000000578EDD8>, 'DEFAULT_MESSAGE_LEVELS': {'WARNING': 30, 'INFO': 20, 'ERROR': 40, 'SUCCESS': 25, 'DEBUG': 10}, 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/'>}, {}]"
+2017-07-22 09:48:48,243 [Thread-6:6196] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:49:06,492 [Dummy-1:8428] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:49:06,495 [Dummy-1:8428] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:49:07,146 [Thread-2:12220] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'False': False, 'True': True, 'None': None}, {'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25}, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004C416A8>>, 'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004E54A90>, 'request': <WSGIRequest: GET '/'>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004C37D68>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004E4C9D8>>}, {}, {'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。'}]"
+2017-07-22 09:49:07,152 [Thread-2:12220] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'False': False, 'True': True, 'None': None}, {'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25}, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004C416A8>>, 'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004E54A90>, 'request': <WSGIRequest: GET '/'>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004C37D68>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004E4C9D8>>}, {}, {'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。'}]"
+2017-07-22 09:49:07,157 [Thread-2:12220] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:49:09,722 [Thread-3:11036] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_NAME' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_NAME'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_NAME] in "[{'False': False, 'True': True, 'None': None}, {'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25}, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004E9A730>>, 'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004E547F0>, 'request': <WSGIRequest: GET '/'>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004C37198>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004E9A7B8>>}, {}, {'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。'}]"
+2017-07-22 09:49:09,724 [Thread-3:11036] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'SITE_DESC' in template 'index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'SITE_DESC'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [SITE_DESC] in "[{'False': False, 'True': True, 'None': None}, {'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'WARNING': 30, 'ERROR': 40, 'INFO': 20, 'SUCCESS': 25}, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x0000000004E9A730>>, 'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000004E547F0>, 'request': <WSGIRequest: GET '/'>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000004C37198>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004E9A7B8>>}, {}, {'sitename': '某某某的个人博客', 'sitedesc': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。'}]"
+2017-07-22 09:49:09,729 [Thread-3:11036] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18161
+2017-07-22 09:49:21,862 [Dummy-1:9292] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:49:21,865 [Dummy-1:9292] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:49:21,979 [Thread-2:5696] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18330
+2017-07-22 09:49:41,370 [Dummy-1:13360] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:49:41,373 [Dummy-1:13360] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:52:47,561 [Dummy-1:10296] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:52:47,564 [Dummy-1:10296] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:52:50,913 [Thread-2:10152] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18330
+2017-07-22 09:52:52,562 [Thread-3:3096] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18330
+2017-07-22 09:52:53,956 [Thread-4:6236] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18330
+2017-07-22 09:53:11,588 [Dummy-1:3456] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2017-07-22 09:53:11,592 [Dummy-1:3456] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2017-07-22 09:53:11,802 [Thread-2:9748] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18318
