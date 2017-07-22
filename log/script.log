@@ -533,3 +533,6 @@ Traceback (most recent call last):
   File "C:\Python34\lib\site-packages\django\utils\encoding.py", line 76, in force_text
     s = six.text_type(s)
 TypeError: __str__ returned non-string (type int)
+2017-07-22 17:27:57,025 [Thread-10:10324] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/07/pakerlocation.png
+2017-07-22 17:28:03,717 [Thread-15:10544] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads/avatar/2017/07/pakerlocation.png
+2017-07-22 17:28:07,990 [Thread-16:14208] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/07/pakerlocation.png

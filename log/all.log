@@ -11929,3 +11929,1509 @@ Traceback (most recent call last):
 django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'None': None, 'False': False, 'True': True}, {'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: wp>>, 'DEFAULT_MESSAGE_LEVELS': {'INFO': 20, 'ERROR': 40, 'WARNING': 30, 'SUCCESS': 25, 'DEBUG': 10}, 'SITE_NAME': '个人博客', 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000000B2A1D0>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000000AF5598>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000000B0B5C0>, 'SITE_DESC': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。'}, {}, {'LANGUAGE_CODE': 'en-us', 'site_header': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000004807A90>, 'site_title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000048079E8>, 'title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000004807F98>, 'LANGUAGE_BIDI': False, 'has_permission': True, 'available_apps': [{'app_label': 'auth', 'app_url': '/admin/auth/', 'models': [{'object_name': 'Group', 'admin_url': '/admin/auth/group/', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000000B0B198>, 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/auth/group/add/'}, {'object_name': 'User', 'admin_url': '/admin/auth/user/', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000000B0B2B0>, 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/auth/user/add/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000480DD68>, 'has_module_perms': True}, {'app_label': 'blog', 'app_url': '/admin/blog/', 'models': [{'object_name': 'Category', 'admin_url': '/admin/blog/category/', 'name': '分类', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/category/add/'}, {'object_name': 'Links', 'admin_url': '/admin/blog/links/', 'name': '友情链接', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/links/add/'}, {'object_name': 'Ad', 'admin_url': '/admin/blog/ad/', 'name': '广告', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/ad/add/'}, {'object_name': 'Article', 'admin_url': '/admin/blog/article/', 'name': '文章', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/article/add/'}, {'object_name': 'Tag', 'admin_url': '/admin/blog/tag/', 'name': '标签', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/tag/add/'}, {'object_name': 'User', 'admin_url': '/admin/blog/user/', 'name': '用户', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/user/add/'}, {'object_name': 'Comment', 'admin_url': '/admin/blog/comment/', 'name': '评论', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/comment/add/'}], 'name': 'Blog', 'has_module_perms': True}], 'app_list': [{'app_label': 'auth', 'app_url': '/admin/auth/', 'models': [{'object_name': 'Group', 'admin_url': '/admin/auth/group/', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000000B0BDA0>, 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/auth/group/add/'}, {'object_name': 'User', 'admin_url': '/admin/auth/user/', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000000B0BDD8>, 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/auth/user/add/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000480DD68>, 'has_module_perms': True}, {'app_label': 'blog', 'app_url': '/admin/blog/', 'models': [{'object_name': 'Category', 'admin_url': '/admin/blog/category/', 'name': '分类', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/category/add/'}, {'object_name': 'Links', 'admin_url': '/admin/blog/links/', 'name': '友情链接', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/links/add/'}, {'object_name': 'Ad', 'admin_url': '/admin/blog/ad/', 'name': '广告', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/ad/add/'}, {'object_name': 'Article', 'admin_url': '/admin/blog/article/', 'name': '文章', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/article/add/'}, {'object_name': 'Tag', 'admin_url': '/admin/blog/tag/', 'name': '标签', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/tag/add/'}, {'object_name': 'User', 'admin_url': '/admin/blog/user/', 'name': '用户', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/user/add/'}, {'object_name': 'Comment', 'admin_url': '/admin/blog/comment/', 'name': '评论', 'perms': {'delete': True, 'add': True, 'change': True}, 'add_url': '/admin/blog/comment/add/'}], 'name': 'Blog', 'has_module_perms': True}], 'site_url': '/'}]"
 2017-07-22 16:51:15,646 [Thread-15:976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON (`django_admin_log`.`user_id` = `auth_user`.`id`) LEFT OUTER JOIN `django_content_type` ON (`django_admin_log`.`content_type_id` = `django_content_type`.`id`) WHERE `django_admin_log`.`user_id` = 1 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(1,)
 2017-07-22 16:51:15,652 [Thread-15:976] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6901
+2017-07-22 17:10:16,334 [Dummy-1:5852] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:10:16,335 [Dummy-1:5852] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:10:16,509 [Dummy-1:5852] [django.db.backends:90] [utils:execute] [DEBUG]- (0.008) SHOW FULL TABLES; args=None
+2017-07-22 17:10:16,516 [Dummy-1:5852] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-07-22 17:11:28,706 [Dummy-1:8312] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:11:28,707 [Dummy-1:8312] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:17:26,531 [Dummy-1:11208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:17:26,533 [Dummy-1:11208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:19:45,838 [Dummy-1:14428] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:19:45,839 [Dummy-1:14428] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:21:44,170 [Dummy-1:13128] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:21:44,171 [Dummy-1:13128] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:23:50,821 [Dummy-1:1708] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:23:50,822 [Dummy-1:1708] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:23:50,953 [Dummy-1:1708] [django.db.backends:90] [utils:execute] [DEBUG]- (0.007) SHOW FULL TABLES; args=None
+2017-07-22 17:23:50,989 [Dummy-1:1708] [django.db.backends:90] [utils:execute] [DEBUG]- (0.031) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-07-22 17:23:56,428 [Thread-2:6236] [django.server:131] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 18330
+2017-07-22 17:24:01,843 [Thread-3:5076] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:01,843 [Thread-3:5076] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:01,849 [Thread-3:5076] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:01.811329'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:01.811329')
+2017-07-22 17:24:01,852 [Thread-3:5076] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:01,949 [Thread-3:5076] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'False': False, 'True': True, 'None': None}, {'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000005A17908>, 'SITE_NAME': '个人博客', 'SITE_DESC': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: wp>>, 'DEFAULT_MESSAGE_LEVELS': {'SUCCESS': 25, 'WARNING': 30, 'INFO': 20, 'DEBUG': 10, 'ERROR': 40}, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000059DA950>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000059C8128>}, {}, {'has_permission': True, 'site_url': '/', 'site_header': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255B00>, 'available_apps': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DBFD0>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DB390>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'LANGUAGE_BIDI': False, 'site_title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255A58>, 'app_list': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DBA20>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DB278>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255C50>, 'LANGUAGE_CODE': 'en-us'}]"
+2017-07-22 17:24:01,960 [Thread-3:5076] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'False': False, 'True': True, 'None': None}, {'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000005A17908>, 'SITE_NAME': '个人博客', 'SITE_DESC': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: wp>>, 'DEFAULT_MESSAGE_LEVELS': {'SUCCESS': 25, 'WARNING': 30, 'INFO': 20, 'DEBUG': 10, 'ERROR': 40}, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x00000000059DA950>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x00000000059C8128>}, {}, {'has_permission': True, 'site_url': '/', 'site_header': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255B00>, 'available_apps': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DBFD0>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DB390>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'LANGUAGE_BIDI': False, 'site_title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255A58>, 'app_list': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DBA20>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x00000000059DB278>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255C50>, 'LANGUAGE_CODE': 'en-us'}]"
+2017-07-22 17:24:01,984 [Thread-3:5076] [django.db.backends:90] [utils:execute] [DEBUG]- (0.005) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON (`django_admin_log`.`user_id` = `auth_user`.`id`) LEFT OUTER JOIN `django_content_type` ON (`django_admin_log`.`content_type_id` = `django_content_type`.`id`) WHERE `django_admin_log`.`user_id` = 1 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(1,)
+2017-07-22 17:24:01,990 [Thread-3:5076] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6901
+2017-07-22 17:24:05,792 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:05,793 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:05,798 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:05.785453'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:05.785453')
+2017-07-22 17:24:05,801 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:05,804 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group`; args=()
+2017-07-22 17:24:05,806 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) FROM (SELECT DISTINCT `auth_user`.`id` AS Col1, `auth_user`.`password` AS Col2, `auth_user`.`last_login` AS Col3, `auth_user`.`is_superuser` AS Col4, `auth_user`.`username` AS Col5, `auth_user`.`first_name` AS Col6, `auth_user`.`last_name` AS Col7, `auth_user`.`email` AS Col8, `auth_user`.`is_staff` AS Col9, `auth_user`.`is_active` AS Col10, `auth_user`.`date_joined` AS Col11 FROM `auth_user`) subquery; args=()
+2017-07-22 17:24:05,807 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `auth_user`; args=()
+2017-07-22 17:24:05,813 [Thread-4:12936] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT DISTINCT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` ORDER BY `auth_user`.`username` ASC, `auth_user`.`id` DESC; args=()
+2017-07-22 17:24:05,840 [Thread-4:12936] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2017-07-22 17:24:05,847 [Thread-4:12936] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'False': False, 'True': True, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005A3FBF8>>}]"
+2017-07-22 17:24:05,857 [Thread-4:12936] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2017-07-22 17:24:05,873 [Thread-4:12936] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2017-07-22 17:24:05,879 [Thread-4:12936] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 6346
+2017-07-22 17:24:05,901 [Thread-5:4520] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:05,902 [Thread-5:4520] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:05,910 [Thread-5:4520] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:05.895080'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:05.895080')
+2017-07-22 17:24:05,915 [Thread-5:4520] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:05,919 [Thread-5:4520] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:24:07,967 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:07,968 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:24:07,973 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:07.962483'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:07.962483')
+2017-07-22 17:24:07,976 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:07,979 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:07,994 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`app_label` = 'auth' AND `django_content_type`.`model` = 'user'); args=('auth', 'user')
+2017-07-22 17:24:08,081 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.030) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group` INNER JOIN `auth_user_groups` ON (`auth_group`.`id` = `auth_user_groups`.`group_id`) WHERE `auth_user_groups`.`user_id` = 1; args=(1,)
+2017-07-22 17:24:08,083 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group` ORDER BY `auth_group`.`name` ASC; args=()
+2017-07-22 17:24:08,087 [Thread-6:9700] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'can_change_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_change_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_change_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_change_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_change_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'add_related_url\': \'/admin/auth/group/add/\', \'name\': \'groups\', \'can_add_related\': True, \'widget\': \'<select multiple="multiple" class="selectfilter" data-field-name="groups" data-is-stacked="0" id="id_groups" name="groups">\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'model\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005358320>}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2017-07-22 17:24:08,089 [Thread-6:9700] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'add_related_url\': \'/admin/auth/group/add/\', \'name\': \'groups\', \'can_add_related\': True, \'widget\': \'<select multiple="multiple" class="selectfilter" data-field-name="groups" data-is-stacked="0" id="id_groups" name="groups">\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'model\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005358320>}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2017-07-22 17:24:08,125 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.032) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `auth_user_user_permissions` ON (`auth_permission`.`id` = `auth_user_user_permissions`.`permission_id`) INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) WHERE `auth_user_user_permissions`.`user_id` = 1 ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(1,)
+2017-07-22 17:24:08,143 [Thread-6:9700] [django.db.backends:90] [utils:execute] [DEBUG]- (0.016) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON (`auth_permission`.`content_type_id` = `django_content_type`.`id`) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=()
+2017-07-22 17:24:08,152 [Thread-6:9700] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'can_change_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_change_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_change_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_change_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_change_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'widget\': \'<select multiple="multiple" class="selectfilter" data-field-name="user permissions" data-is-stacked="0" id="id_user_permissions" name="user_permissions">\\n<option value="1">admin | log entry | Can add log entry</option>\\n<option value="2">admin | log entry | Can change log entry</option>\\n<option value="3">admin | log entry | Can delete log entry</option>\\n<option value="7">auth | group | Can add group</option>\\n<option value="8">auth | group | Can change group</option>\\n<option value="9">auth | group | Can delete group</option>\\n<option value="4">auth | permission | Can add permission</option>\\n<option value="5">auth | permission | Can change permission</option>\\n<option value="6">auth | permission | Can delete permission</option>\\n<option value="10">auth | user | Can add user</option>\\n<option value="11">auth | user | Can change user</option>\\n<option value="12">auth | user | Can delete user</option>\\n<option value="19">blog | 广告 | Can add 广告</option>\\n<option value="20">blog | 广告 | Can change 广告</option>\\n<option value="21">blog | 广告 | Can delete 广告</option>\\n<option value="28">blog | 文章 | Can add 文章</option>\\n<option value="29">blog | 文章 | Can change 文章</option>\\n<option value="30">blog | 文章 | Can delete 文章</option>\\n<option value="37">blog | 分类 | Can add 分类</option>\\n<option value="38">blog | 分类 | Can change 分类</option>\\n<option value="39">blog | 分类 | Can delete 分类</option>\\n<option value="34">blog | 评论 | Can add 评论</option>\\n<option value="35">blog | 评论 | Can change 评论</option>\\n<option value="36">blog | 评论 | Can delete 评论</option>\\n<option value="22">blog | 友情链接 | Can add 友情链接</option>\\n<option value="23">blog | 友情链接 | Can change 友情链接</option>\\n<option value="24">blog | 友情链接 | Can delete 友情链接</option>\\n<option value="31">blog | 标签 | Can add 标签</option>\\n<option value="32">blog | 标签 | Can change 标签</option>\\n<option value="33">blog | 标签 | Can delete 标签</option>\\n<option value="25">blog | 用户 | Can add 用户</option>\\n<option value="26">blog | 用户 | Can change 用户</option>\\n<option value="27">blog | 用户 | Can delete 用户</option>\\n<option value="13">contenttypes | content type | Can add content type</option>\\n<option value="14">contenttypes | content type | Can change content type</option>\\n<option value="15">contenttypes | content type | Can delete content type</option>\\n<option value="16">sessions | session | Can add session</option>\\n<option value="17">sessions | session | Can change session</option>\\n<option value="18">sessions | session | Can delete session</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'model\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000534ACF8>, \'name\': \'user_permissions\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2017-07-22 17:24:08,155 [Thread-6:9700] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'can_add_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_add_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_add_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_add_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_add_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'widget\': \'<select multiple="multiple" class="selectfilter" data-field-name="user permissions" data-is-stacked="0" id="id_user_permissions" name="user_permissions">\\n<option value="1">admin | log entry | Can add log entry</option>\\n<option value="2">admin | log entry | Can change log entry</option>\\n<option value="3">admin | log entry | Can delete log entry</option>\\n<option value="7">auth | group | Can add group</option>\\n<option value="8">auth | group | Can change group</option>\\n<option value="9">auth | group | Can delete group</option>\\n<option value="4">auth | permission | Can add permission</option>\\n<option value="5">auth | permission | Can change permission</option>\\n<option value="6">auth | permission | Can delete permission</option>\\n<option value="10">auth | user | Can add user</option>\\n<option value="11">auth | user | Can change user</option>\\n<option value="12">auth | user | Can delete user</option>\\n<option value="19">blog | 广告 | Can add 广告</option>\\n<option value="20">blog | 广告 | Can change 广告</option>\\n<option value="21">blog | 广告 | Can delete 广告</option>\\n<option value="28">blog | 文章 | Can add 文章</option>\\n<option value="29">blog | 文章 | Can change 文章</option>\\n<option value="30">blog | 文章 | Can delete 文章</option>\\n<option value="37">blog | 分类 | Can add 分类</option>\\n<option value="38">blog | 分类 | Can change 分类</option>\\n<option value="39">blog | 分类 | Can delete 分类</option>\\n<option value="34">blog | 评论 | Can add 评论</option>\\n<option value="35">blog | 评论 | Can change 评论</option>\\n<option value="36">blog | 评论 | Can delete 评论</option>\\n<option value="22">blog | 友情链接 | Can add 友情链接</option>\\n<option value="23">blog | 友情链接 | Can change 友情链接</option>\\n<option value="24">blog | 友情链接 | Can delete 友情链接</option>\\n<option value="31">blog | 标签 | Can add 标签</option>\\n<option value="32">blog | 标签 | Can change 标签</option>\\n<option value="33">blog | 标签 | Can delete 标签</option>\\n<option value="25">blog | 用户 | Can add 用户</option>\\n<option value="26">blog | 用户 | Can change 用户</option>\\n<option value="27">blog | 用户 | Can delete 用户</option>\\n<option value="13">contenttypes | content type | Can add content type</option>\\n<option value="14">contenttypes | content type | Can change content type</option>\\n<option value="15">contenttypes | content type | Can delete content type</option>\\n<option value="16">sessions | session | Can add session</option>\\n<option value="17">sessions | session | Can change session</option>\\n<option value="18">sessions | session | Can delete session</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'model\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000534ACF8>, \'name\': \'user_permissions\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2017-07-22 17:24:08,161 [Thread-6:9700] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'can_delete_related' in template 'admin/related_widget_wrapper.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'can_delete_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [can_delete_related] in '[{\'False\': False, \'True\': True, \'None\': None}, {\'widget\': \'<select multiple="multiple" class="selectfilter" data-field-name="user permissions" data-is-stacked="0" id="id_user_permissions" name="user_permissions">\\n<option value="1">admin | log entry | Can add log entry</option>\\n<option value="2">admin | log entry | Can change log entry</option>\\n<option value="3">admin | log entry | Can delete log entry</option>\\n<option value="7">auth | group | Can add group</option>\\n<option value="8">auth | group | Can change group</option>\\n<option value="9">auth | group | Can delete group</option>\\n<option value="4">auth | permission | Can add permission</option>\\n<option value="5">auth | permission | Can change permission</option>\\n<option value="6">auth | permission | Can delete permission</option>\\n<option value="10">auth | user | Can add user</option>\\n<option value="11">auth | user | Can change user</option>\\n<option value="12">auth | user | Can delete user</option>\\n<option value="19">blog | 广告 | Can add 广告</option>\\n<option value="20">blog | 广告 | Can change 广告</option>\\n<option value="21">blog | 广告 | Can delete 广告</option>\\n<option value="28">blog | 文章 | Can add 文章</option>\\n<option value="29">blog | 文章 | Can change 文章</option>\\n<option value="30">blog | 文章 | Can delete 文章</option>\\n<option value="37">blog | 分类 | Can add 分类</option>\\n<option value="38">blog | 分类 | Can change 分类</option>\\n<option value="39">blog | 分类 | Can delete 分类</option>\\n<option value="34">blog | 评论 | Can add 评论</option>\\n<option value="35">blog | 评论 | Can change 评论</option>\\n<option value="36">blog | 评论 | Can delete 评论</option>\\n<option value="22">blog | 友情链接 | Can add 友情链接</option>\\n<option value="23">blog | 友情链接 | Can change 友情链接</option>\\n<option value="24">blog | 友情链接 | Can delete 友情链接</option>\\n<option value="31">blog | 标签 | Can add 标签</option>\\n<option value="32">blog | 标签 | Can change 标签</option>\\n<option value="33">blog | 标签 | Can delete 标签</option>\\n<option value="25">blog | 用户 | Can add 用户</option>\\n<option value="26">blog | 用户 | Can change 用户</option>\\n<option value="27">blog | 用户 | Can delete 用户</option>\\n<option value="13">contenttypes | content type | Can add content type</option>\\n<option value="14">contenttypes | content type | Can change content type</option>\\n<option value="15">contenttypes | content type | Can delete content type</option>\\n<option value="16">sessions | session | Can add session</option>\\n<option value="17">sessions | session | Can change session</option>\\n<option value="18">sessions | session | Can delete session</option>\\n</select>\', \'url_params\': \'_to_field=id&_popup=1\', \'model\': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000534ACF8>, \'name\': \'user_permissions\'}, {\'block\': <Block Node: links. Contents: [<TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n        \'>, <IfNode>, <TextNode: \'\\n    \'>]>}]'
+2017-07-22 17:24:08,180 [Thread-6:9700] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/auth/user/1/change/ HTTP/1.1" 200 14724
+2017-07-22 17:24:08,213 [Thread-10:9492] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+2017-07-22 17:24:08,214 [Thread-11:9912] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+2017-07-22 17:24:08,214 [Thread-7:11184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:08,215 [Thread-7:11184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:24:08,221 [Thread-7:11184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:08.197255'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:08.197255')
+2017-07-22 17:24:08,223 [Thread-8:14824] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+2017-07-22 17:24:08,225 [Thread-7:11184] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:08,230 [Thread-7:11184] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:24:08,251 [Thread-9:13780] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+2017-07-22 17:24:08,419 [Thread-13:7696] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2017-07-22 17:24:08,426 [Thread-12:3752] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2017-07-22 17:24:08,427 [Thread-15:8928] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+2017-07-22 17:24:08,427 [Thread-16:10896] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+2017-07-22 17:24:08,433 [Thread-14:244] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2017-07-22 17:24:34,665 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:34,666 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:34,670 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:34.660016'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:34.660016')
+2017-07-22 17:24:34,673 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:34,675 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group`; args=()
+2017-07-22 17:24:34,677 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) FROM (SELECT DISTINCT `auth_user`.`id` AS Col1, `auth_user`.`password` AS Col2, `auth_user`.`last_login` AS Col3, `auth_user`.`is_superuser` AS Col4, `auth_user`.`username` AS Col5, `auth_user`.`first_name` AS Col6, `auth_user`.`last_name` AS Col7, `auth_user`.`email` AS Col8, `auth_user`.`is_staff` AS Col9, `auth_user`.`is_active` AS Col10, `auth_user`.`date_joined` AS Col11 FROM `auth_user`) subquery; args=()
+2017-07-22 17:24:34,678 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `auth_user`; args=()
+2017-07-22 17:24:34,683 [Thread-17:7332] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT DISTINCT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` ORDER BY `auth_user`.`username` ASC, `auth_user`.`id` DESC; args=()
+2017-07-22 17:24:34,709 [Thread-17:7332] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2017-07-22 17:24:34,715 [Thread-17:7332] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'False': False, 'True': True, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005A591E0>>}]"
+2017-07-22 17:24:34,729 [Thread-17:7332] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2017-07-22 17:24:34,746 [Thread-17:7332] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2017-07-22 17:24:34,754 [Thread-17:7332] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 6346
+2017-07-22 17:24:38,672 [Thread-18:8984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:38,673 [Thread-18:8984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:38,677 [Thread-18:8984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:38.667673'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:38.667673')
+2017-07-22 17:24:38,680 [Thread-18:8984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:38,703 [Thread-18:8984] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'False': False, 'True': True, 'None': None}, {'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000005AD0FD0>, 'SITE_NAME': '个人博客', 'SITE_DESC': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: wp>>, 'DEFAULT_MESSAGE_LEVELS': {'SUCCESS': 25, 'WARNING': 30, 'INFO': 20, 'DEBUG': 10, 'ERROR': 40}, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005A69AE8>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000005AC91D0>}, {}, {'has_permission': True, 'site_url': '/', 'site_header': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255B00>, 'available_apps': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC9B38>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC9278>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'LANGUAGE_BIDI': False, 'site_title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255A58>, 'app_list': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC95C0>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC97F0>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255C50>, 'LANGUAGE_CODE': 'en-us'}]"
+2017-07-22 17:24:38,708 [Thread-18:8984] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'False': False, 'True': True, 'None': None}, {'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x0000000005AD0FD0>, 'SITE_NAME': '个人博客', 'SITE_DESC': '梦虽虚幻,却是自己的梦想；位虽低微,却是自己的岗位；屋虽简陋,却是自己的家；志虽渺小,却是自己的追求。', 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: wp>>, 'DEFAULT_MESSAGE_LEVELS': {'SUCCESS': 25, 'WARNING': 30, 'INFO': 20, 'DEBUG': 10, 'ERROR': 40}, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005A69AE8>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x0000000005AC91D0>}, {}, {'has_permission': True, 'site_url': '/', 'site_header': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255B00>, 'available_apps': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC9B38>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC9278>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'LANGUAGE_BIDI': False, 'site_title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255A58>, 'app_list': [{'app_label': 'auth', 'has_module_perms': True, 'app_url': '/admin/auth/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/group/add/', 'object_name': 'Group', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC95C0>, 'admin_url': '/admin/auth/group/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/auth/user/add/', 'object_name': 'User', 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005AC97F0>, 'admin_url': '/admin/auth/user/'}], 'name': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x000000000525DDD8>}, {'app_label': 'blog', 'has_module_perms': True, 'app_url': '/admin/blog/', 'models': [{'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/category/add/', 'object_name': 'Category', 'name': '分类', 'admin_url': '/admin/blog/category/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/links/add/', 'object_name': 'Links', 'name': '友情链接', 'admin_url': '/admin/blog/links/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/ad/add/', 'object_name': 'Ad', 'name': '广告', 'admin_url': '/admin/blog/ad/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/article/add/', 'object_name': 'Article', 'name': '文章', 'admin_url': '/admin/blog/article/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/tag/add/', 'object_name': 'Tag', 'name': '标签', 'admin_url': '/admin/blog/tag/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/user/add/', 'object_name': 'User', 'name': '用户', 'admin_url': '/admin/blog/user/'}, {'perms': {'change': True, 'delete': True, 'add': True}, 'add_url': '/admin/blog/comment/add/', 'object_name': 'Comment', 'name': '评论', 'admin_url': '/admin/blog/comment/'}], 'name': 'Blog'}], 'title': <django.utils.functional.lazy.<locals>.__proxy__ object at 0x0000000005255C50>, 'LANGUAGE_CODE': 'en-us'}]"
+2017-07-22 17:24:38,725 [Thread-18:8984] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON (`django_admin_log`.`user_id` = `auth_user`.`id`) LEFT OUTER JOIN `django_content_type` ON (`django_admin_log`.`content_type_id` = `django_content_type`.`id`) WHERE `django_admin_log`.`user_id` = 1 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(1,)
+2017-07-22 17:24:38,730 [Thread-18:8984] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 6901
+2017-07-22 17:24:41,607 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:41,608 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:41,612 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:41.602082'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:41.602082')
+2017-07-22 17:24:41,615 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:41,617 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:24:41,618 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:24:41,624 [Thread-19:7204] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` ORDER BY `blog_user`.`id` DESC; args=()
+2017-07-22 17:24:41,650 [Thread-19:7204] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2017-07-22 17:24:41,656 [Thread-19:7204] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'False': False, 'True': True, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005A69950>>}]"
+2017-07-22 17:24:41,658 [Thread-19:7204] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2017-07-22 17:24:41,670 [Thread-19:7204] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2017-07-22 17:24:41,676 [Thread-19:7204] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/blog/user/ HTTP/1.1" 200 4153
+2017-07-22 17:24:41,695 [Thread-20:15212] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:41,696 [Thread-20:15212] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:41,701 [Thread-20:15212] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:41.689685'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:41.689685')
+2017-07-22 17:24:41,705 [Thread-20:15212] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:41,709 [Thread-20:15212] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:24:43,080 [Thread-21:10976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:43,081 [Thread-21:10976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:43,085 [Thread-21:10976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:43.075795'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:43.075795')
+2017-07-22 17:24:43,088 [Thread-21:10976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:43,091 [Thread-21:10976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:43,100 [Thread-21:10976] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`app_label` = 'blog' AND `django_content_type`.`model` = 'user'); args=('blog', 'user')
+2017-07-22 17:24:43,150 [Thread-21:10976] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/blog/user/1/change/ HTTP/1.1" 200 7137
+2017-07-22 17:24:43,170 [Thread-22:10488] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:43,171 [Thread-22:10488] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:24:43,176 [Thread-22:10488] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:43.164397'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:43.164397')
+2017-07-22 17:24:43,179 [Thread-22:10488] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:43,182 [Thread-22:10488] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:24:52,332 [Thread-24:15008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:52,333 [Thread-24:15008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:24:52,338 [Thread-24:15008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:52.325543'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:52.325543')
+2017-07-22 17:24:52,341 [Thread-24:15008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:52,344 [Thread-24:15008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:52,352 [Thread-24:15008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT (1) AS `a` FROM `blog_user` WHERE (`blog_user`.`mobile` = '111111' AND NOT (`blog_user`.`id` = 1)) LIMIT 1; args=('111111', 1)
+2017-07-22 17:24:52,412 [Thread-24:15008] [django.server:131] [basehttp:log_message] [INFO]- "POST /admin/blog/user/1/change/ HTTP/1.1" 200 7323
+2017-07-22 17:24:52,436 [Thread-25:8556] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:24:52,437 [Thread-25:8556] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:24:52,443 [Thread-25:8556] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:24:52.428161'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:24:52.428161')
+2017-07-22 17:24:52,446 [Thread-25:8556] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:24:52,450 [Thread-25:8556] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:25:02,133 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:25:02,134 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:25:02,138 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:25:02.128938'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:25:02.128938')
+2017-07-22 17:25:02,140 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:25:02,143 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2017-07-22 17:25:02,181 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT (1) AS `a` FROM `blog_user` WHERE (`blog_user`.`mobile` = '111111' AND NOT (`blog_user`.`id` = 1)) LIMIT 1; args=('111111', 1)
+2017-07-22 17:25:02,198 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.013) UPDATE `blog_user` SET `avatar` = 'avatar/2017/07/guiji.png', `qq` = '11111111', `mobile` = '111111', `username` = '1111', `password` = '111111', `email` = '111@qq.com', `date_publish` = '2017-07-22 08:01:18.596582', `last_name` = '222' WHERE `blog_user`.`id` = 1; args=('avatar/2017/07/guiji.png', '11111111', '111111', '1111', '111111', '111@qq.com', '2017-07-22 08:01:18.596582', '222', 1)
+2017-07-22 17:25:02,200 [Thread-26:15120] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO `django_admin_log` (`action_time`, `user_id`, `content_type_id`, `object_id`, `object_repr`, `action_flag`, `change_message`) VALUES ('2017-07-22 09:25:02.199019', 1, 9, '1', '1111', 2, '[{\"changed\": {\"fields\": [\"avatar\"]}}]'); args=['2017-07-22 09:25:02.199019', 1, 9, '1', '1111', 2, '[{"changed": {"fields": ["avatar"]}}]']
+2017-07-22 17:25:02,235 [Thread-26:15120] [django.server:131] [basehttp:log_message] [INFO]- "POST /admin/blog/user/1/change/ HTTP/1.1" 302 0
+2017-07-22 17:25:02,245 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:25:02,246 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:25:02,250 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:25:02.240568'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:25:02.240568')
+2017-07-22 17:25:02,252 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:25:02,254 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:25:02,255 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:25:02,260 [Thread-27:7408] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` ORDER BY `blog_user`.`id` DESC; args=()
+2017-07-22 17:25:02,285 [Thread-27:7408] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2017-07-22 17:25:02,292 [Thread-27:7408] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'False': False, 'True': True, 'None': None, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000005A69950>>}]"
+2017-07-22 17:25:02,294 [Thread-27:7408] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2017-07-22 17:25:02,306 [Thread-27:7408] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2017-07-22 17:25:02,314 [Thread-27:7408] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/blog/user/ HTTP/1.1" 200 4329
+2017-07-22 17:25:02,337 [Thread-28:7336] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:25:02,338 [Thread-28:7336] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:25:02,344 [Thread-28:7336] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl' AND `django_session`.`expire_date` > '2017-07-22 09:25:02.331181'); args=('eqeyav3d222uj8vmtwdrud6aycldm6wl', '2017-07-22 09:25:02.331181')
+2017-07-22 17:25:02,347 [Thread-28:7336] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:25:02,352 [Thread-28:7336] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:25:31,920 [Dummy-1:13576] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:25:31,921 [Dummy-1:13576] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:26:52,025 [Dummy-1:14636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:26:52,026 [Dummy-1:14636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:26:52,161 [Dummy-1:14636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.006) SHOW FULL TABLES; args=None
+2017-07-22 17:26:52,194 [Dummy-1:14636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.029) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+2017-07-22 17:26:55,757 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:26:55,758 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:26:55,762 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:26:55.752006' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:26:55.752006', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:26:55,765 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:26:55,767 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:26:55,768 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:26:55,817 [Thread-2:3108] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` ORDER BY `blog_user`.`id` DESC; args=()
+2017-07-22 17:26:55,881 [Thread-2:3108] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2017-07-22 17:26:55,888 [Thread-2:3108] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004C62BF8>>, 'None': None, 'False': False, 'True': True}]"
+2017-07-22 17:26:55,891 [Thread-2:3108] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2017-07-22 17:26:55,903 [Thread-2:3108] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2017-07-22 17:26:55,909 [Thread-2:3108] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/blog/user/ HTTP/1.1" 200 4153
+2017-07-22 17:26:55,927 [Thread-3:14464] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:26:55,928 [Thread-3:14464] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:26:55,932 [Thread-3:14464] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:26:55.922204' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:26:55.922204', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:26:55,935 [Thread-3:14464] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:26:55,939 [Thread-3:14464] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:26:57,902 [Thread-4:10784] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:26:57,903 [Thread-4:10784] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:26:57,908 [Thread-4:10784] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:26:57.898000' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:26:57.898000', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:26:57,910 [Thread-4:10784] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:26:57,919 [Thread-4:10784] [django.db.backends:90] [utils:execute] [DEBUG]- (0.007) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2017-07-22 17:26:57,929 [Thread-4:10784] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'user' AND `django_content_type`.`app_label` = 'blog'); args=('user', 'blog')
+2017-07-22 17:26:57,981 [Thread-4:10784] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/blog/user/1/change/ HTTP/1.1" 200 7121
+2017-07-22 17:26:58,006 [Thread-5:11164] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:26:58,007 [Thread-5:11164] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:26:58,012 [Thread-5:11164] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:26:58.000620' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:26:58.000620', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:26:58,016 [Thread-5:11164] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:26:58,019 [Thread-5:11164] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:27:03,514 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:27:03,515 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:27:03,519 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:27:03.509521' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:27:03.509521', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:27:03,521 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:27:03,524 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` WHERE `blog_user`.`id` = 1; args=(1,)
+2017-07-22 17:27:03,565 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT (1) AS `a` FROM `blog_user` WHERE (`blog_user`.`mobile` = '111111' AND NOT (`blog_user`.`id` = 1)) LIMIT 1; args=('111111', 1)
+2017-07-22 17:27:03,568 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) UPDATE `blog_user` SET `avatar` = 'avatar/2017/07/pakerlocation.png', `qq` = '11111111', `mobile` = '111111', `username` = '1111', `password` = '111111', `email` = '111@qq.com', `date_publish` = '2017-07-22 08:01:18.596582', `last_name` = '222' WHERE `blog_user`.`id` = 1; args=('avatar/2017/07/pakerlocation.png', '11111111', '111111', '1111', '111111', '111@qq.com', '2017-07-22 08:01:18.596582', '222', 1)
+2017-07-22 17:27:03,762 [Thread-6:8008] [django.db.backends:90] [utils:execute] [DEBUG]- (0.192) INSERT INTO `django_admin_log` (`action_time`, `user_id`, `content_type_id`, `object_id`, `object_repr`, `action_flag`, `change_message`) VALUES ('2017-07-22 09:27:03.569590', 1, 9, '1', '1111', 2, '[{\"changed\": {\"fields\": [\"avatar\"]}}]'); args=['2017-07-22 09:27:03.569590', 1, 9, '1', '1111', 2, '[{"changed": {"fields": ["avatar"]}}]']
+2017-07-22 17:27:03,852 [Thread-6:8008] [django.server:131] [basehttp:log_message] [INFO]- "POST /admin/blog/user/1/change/ HTTP/1.1" 302 0
+2017-07-22 17:27:03,865 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:27:03,866 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:27:03,871 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:27:03.859928' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:27:03.859928', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:27:03,876 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:27:03,886 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.008) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:27:03,887 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT COUNT(*) AS `__count` FROM `blog_user`; args=()
+2017-07-22 17:27:03,894 [Thread-7:6864] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT `blog_user`.`id`, `blog_user`.`avatar`, `blog_user`.`qq`, `blog_user`.`mobile`, `blog_user`.`username`, `blog_user`.`password`, `blog_user`.`email`, `blog_user`.`date_publish`, `blog_user`.`last_name` FROM `blog_user` ORDER BY `blog_user`.`id` DESC; args=()
+2017-07-22 17:27:03,929 [Thread-7:6864] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [errors] in 'None'
+2017-07-22 17:27:03,937 [Thread-7:6864] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'show' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+  File "C:\Python34\lib\site-packages\django\template\context.py", line 75, in __getitem__
+    raise KeyError(key)
+KeyError: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'show'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [show] in "[{'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x0000000004F2B2F0>>, 'None': None, 'False': False, 'True': True}]"
+2017-07-22 17:27:03,940 [Thread-7:6864] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'is_multipart' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_multipart'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_multipart] in 'None'
+2017-07-22 17:27:03,955 [Thread-7:6864] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'non_field_errors' in template 'admin/change_list.html'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'NoneType' object has no attribute 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'non_field_errors'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_errors] in 'None'
+2017-07-22 17:27:03,964 [Thread-7:6864] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/blog/user/ HTTP/1.1" 200 4329
+2017-07-22 17:27:03,994 [Thread-8:14188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:27:03,995 [Thread-8:14188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:27:04,003 [Thread-8:14188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`expire_date` > '2017-07-22 09:27:03.986075' AND `django_session`.`session_key` = 'eqeyav3d222uj8vmtwdrud6aycldm6wl'); args=('2017-07-22 09:27:03.986075', 'eqeyav3d222uj8vmtwdrud6aycldm6wl')
+2017-07-22 17:27:04,009 [Thread-8:14188] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 1; args=(1,)
+2017-07-22 17:27:04,015 [Thread-8:14188] [django.server:131] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+2017-07-22 17:27:51,761 [Thread-9:14984] [django.server:131] [basehttp:log_message] [WARNING]- "GET /static/avatar/2017/07/pakerlocation.png HTTP/1.1" 404 1709
+2017-07-22 17:27:57,020 [Thread-10:10324] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-07-22 17:27:57,026 [Thread-10:10324] [django.server:131] [basehttp:log_message] [WARNING]- "GET /uploads/avatar/2017/07/pakerlocation.png HTTP/1.1" 404 2154
+2017-07-22 17:28:03,661 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>'
+2017-07-22 17:28:03,666 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>'
+2017-07-22 17:28:03,672 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>'
+2017-07-22 17:28:03,678 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>'
+2017-07-22 17:28:03,684 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>'
+2017-07-22 17:28:03,690 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>'
+2017-07-22 17:28:03,697 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>'
+2017-07-22 17:28:03,703 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>'
+2017-07-22 17:28:03,709 [Thread-15:10544] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern index ^$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern login ^login/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern logout ^logout/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change ^password_change/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern password_change_done ^password_change/done/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern jsi18n ^jsi18n/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern view_on_site ^r/(?P<content_type_id>\d+)/(?P<object_id>.+)/$>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/ad/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/category/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/links/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/tag/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/user/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/comment/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^blog/article/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>, <RegexURLPattern app_list ^(?P<app_label>blog|auth)/$>], [<RegexURLPattern index ^$>]], 'path': 'admin/uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (None:None) ^auth/group/>'
+2017-07-22 17:28:03,717 [Thread-15:10544] [django.server:131] [basehttp:log_message] [WARNING]- "GET /admin/uploads/avatar/2017/07/pakerlocation.png HTTP/1.1" 404 5101
+2017-07-22 17:28:07,987 [Thread-16:14208] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "C:\Python34\lib\site-packages\django\core\handlers\base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python34\lib\site-packages\django\urls\resolvers.py", line 300, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLPattern index ^$>]], 'path': 'uploads/avatar/2017/07/pakerlocation.png'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 900, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2017-07-22 17:28:07,991 [Thread-16:14208] [django.server:131] [basehttp:log_message] [WARNING]- "GET /uploads/avatar/2017/07/pakerlocation.png HTTP/1.1" 404 2154
+2017-07-22 17:28:37,910 [Dummy-1:6648] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:28:37,912 [Dummy-1:6648] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:43:27,370 [Dummy-1:15156] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:43:27,371 [Dummy-1:15156] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:43:57,390 [Dummy-1:9956] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:43:57,391 [Dummy-1:9956] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT VERSION(); args=None
+2017-07-22 17:46:49,818 [Dummy-1:6004] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:46:49,818 [Dummy-1:6004] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:47:29,397 [Dummy-1:10892] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:47:29,398 [Dummy-1:10892] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:52:09,508 [Dummy-1:1828] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:52:09,509 [Dummy-1:1828] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:53:37,048 [Dummy-1:9064] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:53:37,048 [Dummy-1:9064] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:53:57,089 [Dummy-1:7004] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:53:57,090 [Dummy-1:7004] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None
+2017-07-22 17:54:07,009 [Dummy-1:12716] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+2017-07-22 17:54:07,010 [Dummy-1:12716] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT VERSION(); args=None

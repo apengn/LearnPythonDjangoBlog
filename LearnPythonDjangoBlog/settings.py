@@ -219,3 +219,10 @@ WEIBO_XINA = '333333'
 WEIBO_TENTXUN = '333'
 FRO_RSS = '33333'
 FRO_EMAIL = '33333333333'
+
+
+#配置文件上传目录
+
+MEDIA_URL='/uploads/'
+
+MEDIA_ROOT=os.path.join(BASE_DIR,'uploads')
